@@ -15,6 +15,6 @@ public class TimeConvert {
         long years = (long) (min / minutesInYear);
         int days = (int) (min / 60 / 24) % 365;
 
-        System.out.println((int) min + " минут примерно " + years + " лет и " + days + " дней");
+        System.out.println((int) min + " минут это примерно " + years + " лет и " + days + " дней");
     }
 }
